@@ -1,0 +1,189 @@
+/**
+ * @description : 
+ * @update:2015/10/13.
+ */
+/* suning.com 1444681796433*/
+@charset "utf-8";
+fieldset,img{border:0}
+*,a:focus,input:focus{outline:0}
+a,body{color:#353d44}
+.cl,.fix:after{clear:both}
+.block,.fix:after{display:block}
+*,.bbox,.layout,div,p{-webkit-box-sizing:border-box}
+.footer li,.of,.sn-tab-nav li,.wb,.wbox-flex{word-wrap:break-word;word-break:break-all}
+.sn-local-loading span,.sn-select,img{vertical-align:middle}
+.of,.sn-select select,.wb{text-overflow:ellipsis}
+.checkbox-switch,.input-reset,.sn-select select{-webkit-appearance:none}
+article,aside,blockquote,body,button,code,dd,dialog,div,dl,dt,fieldset,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,input,legend,li,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}
+input,select,textarea{font-size:100%}
+input,button,select,textarea{ outline:none;}
+textarea{ resize:none;}
+table{border-collapse:collapse;border-spacing:0}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:500}
+li,ol,ul{list-style:none}
+em,i{font-style:normal}
+del{text-decoration:line-through}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:500}
+img{max-width:100%}
+a{text-decoration:none}
+a:active{opacity:.7}
+*{-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:none;overflow-y:scroll}
+body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-serif;background:#F2F2F2}
+input{width: 100%; border: 0 none;}
+
+/* 常用属性 */
+.w{margin:0 auto;max-width:15rem} /* 750px  */
+.layout{margin:.2rem}/* 10px  */
+.pdlayout{padding:.2rem .6rem} /* 10px 30px */
+.fix:after{content:'';visibility:hidden}
+.fl{float:left}
+.fr{float:right}
+.block {display: block!important;}
+.dib{display:inline-block!important;}
+.hide{display:none!important;}
+.vam{vertical-align: middle;}
+.bold{font-weight:700}
+.of{overflow:hidden;white-space:nowrap}
+.oh-y{overflow-y:hidden}
+.opa0{opacity:0}
+.opa1{opacity:1!important;-webkit-transition:opacity .3s ease-in}
+.wbox{display:-webkit-flex!important;display:-webkit-box}
+.wbox-flex{-webkit-flex:1!important;-webkit-box-flex:1}
+.dashed{height:1px;font-size:0;overflow:hidden;border-top:1px dashed #DCDCDC}
+
+/* 边框 */
+.bt{border-bottom: 1px solid #DCDCDC;}
+.bl{border-left: 1px solid #DCDCDC;}
+.br{border-right: 1px solid #DCDCDC;}
+.bt{border-top: 1px solid #DCDCDC;}
+
+/* 边距 */
+.mt1{margin-top: 1px;}
+.mt20{margin-top:.4rem!important}
+.mt10{margin-top:.2rem!important}
+.mt30{margin-top: 0.6rem;}
+.mb30{margin-bottom: 0.6rem;}
+.ml60{margin-left: 1.2rem;}
+.ml30{margin-left: 0.6rem;}
+.mr30{margin-right: 0.6rem;}
+.m30{margin: 0.6rem;}
+.p30{padding: 0 0.6rem;}
+.mv30{margin: 0.6rem 0;}
+.mh30{margin: 0 0.6rem;}
+
+/* 字体 */
+.f15{font-size:.3rem}
+.f16{font-size:.32rem}
+.f17{font-size:.34rem}
+.f18{font-size:.36rem}
+.f20{font-size:.4rem}
+.f24{font-size:.48rem}
+.f28{font-size:.56rem}
+.f30{font-size:.6rem}
+.f34{font-size:.68rem}
+.fhalf{font-size:.4rem}
+.scale{-webkit-transform:scale(.8)}
+.font{font-size:.58rem}
+.tr{text-align:right}
+.tc{text-align:center}
+.pa{position:absolute}
+.pr{position:relative}
+
+/* 颜色 */
+.black{color: #000;}
+.gray1{color: #707070;}
+.gray6{color:#666}
+.gray9{color:#999}
+.org1{color:#f29400;}
+.black{color:#000;}
+
+html{font-size:50px}
+body{font-size:24px}
+@media screen and (max-width:320px) {
+    html {
+        font-size:21.33px
+    }
+    body {
+        font-size:12px
+    }
+}
+@media screen and (min-width:320px) {
+    html {
+        font-size:21.33px
+    }
+    body {
+        font-size:12px
+    }
+}@media screen and (min-width:360px) {
+    html {
+        font-size:24px
+    }
+    body {
+        font-size:12px
+    }
+}@media screen and (min-width:375px) {
+    html {
+        font-size:25px
+    }
+    body {
+        font-size:12px
+    }
+}@media screen and (min-width:384px) {
+    html {
+        font-size:25.6px
+    }
+    body {
+        font-size:14px
+    }
+}@media screen and (min-width:400px) {
+    html {
+        font-size:26.67px
+    }
+    body {
+        font-size:14px
+    }
+}@media screen and (min-width:414px) {
+    html {
+        font-size:27.6px
+    }
+    body {
+        font-size:14px
+    }
+}@media screen and (min-width:424px) {
+    html {
+        font-size:28.27px
+    }
+    body {
+        font-size:14px
+    }
+}@media screen and (min-width:480px) {
+    html {
+        font-size:32px
+    }
+    body {
+        font-size:15.36px
+    }
+}@media screen and (min-width:540px) {
+    html {
+        font-size:36px
+    }
+    body {
+        font-size:17.28px
+    }
+}@media screen and (min-width:720px) {
+    html {
+        font-size:48px
+    }
+    body {
+        font-size:23.04px
+    }
+}@media screen and (min-width:750px) {
+    html {
+        font-size:50px
+    }
+    body {
+        font-size:24px
+    }
+}

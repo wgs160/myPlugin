@@ -1,0 +1,14 @@
+{
+  "name": "imgView",
+  "version": "0.1",
+  "description": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="css/base.css" media="all">
+	<title>wap基础样式</title>
+	<script src="http://cdn.bootcss.com/seajs/2.3.0/sea.js"></script>
+	<script>
+		seajs.config({
+			base: "../",
+			alias: {
+//				"imgView": "../dist/js/imgView.min.js"
+				"imgView": "../src/js/imgView.js"
+			},
+			path:{
+			//	'module': './module/'
+			}
+		});
+		// 加载入口模块
+		seajs.use("examples/main");
+	</script>
+</head>
+<body>
+<div class="sn-main">
+	<input class="mt30" id="aa" type="button" value="2121212">
+	<input class="mt30" id="ab" type="button" value="2121212">
+</div>
+</body>
+</html>
+

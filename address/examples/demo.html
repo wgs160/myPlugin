@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="css/base.css" media="all">
+	<title>wap基础样式</title>
+	<script src="http://cdn.bootcss.com/seajs/2.3.0/sea.js"></script>
+	<script>
+		seajs.config({
+			base: "../",
+			alias: {
+			//	"address": "../dist/js/address.min.js"
+			"address": "../src/js/address.js"
+			},
+			path:{
+			//	'module': './module/'
+			}
+		});
+		// 加载入口模块
+		seajs.use("examples/main");
+	</script>
+</head>
+<body>
+
+<div class="sn-main">
+<div class="input-block wbox p30 mt30 sn-block">
+	<p>单位地址</p>
+	<div class="to-address wbox-flex ml30" ><span id="province-name" >江苏省</span><span id="city-name" >南京市</span><span id="area-name" >玄武区</span></div><span class="edit-icon" ></span>
+</div>
+<div class="input-block wbox p30 mt30 sn-block">
+	<p>单位地址</p>
+	<div class="to-addresss wbox-flex ml30" ><span id="jss" >江苏省</span><span id="njs" >南京市</span><span id="xwq" >玄武区</span></div><span class="edit-icon" ></span>
+</div>
+
+	<input id="aa" type="button" value="2121212">
+
+</div>
+</body>
+</html>
+
